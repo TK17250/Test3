@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "IBMPlexSansThai-Medium.woff2";
+    src: url("bootstrap-5.2.3-dist/font/Font_Bassic/IBMPlexSansThai/WOFF2/IBMPlexSansThai-Medium.woff2");
+}
+
+body , html {
+    font-family: "IBMPlexSansThai-Medium.woff2";
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(113, 210, 113);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(75, 119, 75);
+}
+
+/*          Box          */
+
+.box {
+    background-color: white;
+    box-shadow: 0px 0px 50px white;
+    border-radius: 20px;
+}
+
+.container {
+    width: 95%;
+    padding: 0;
+}
+
+/*          Banner           */
+
+#Banner {
+    max-width: 100%;
+    height: auto;
+}
+
+/*          img          */
+
+.top-menu {
+    background-color: rgb(113, 210, 113);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px black;
+    margin: auto;
+    display: block;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    transition: box-shadow 0.5s;
+}
+
+.carousel,.carousel-inner {
+    box-shadow: 2px 2px 8px black;
+}
+
+/*             Menu             */ 
+
+.text-menu {
+    text-decoration: none;
+    background: -webkit-linear-gradient(rgb(37, 173, 51), rgb(82, 209, 80));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.img-menu {
+    box-shadow: 2px 2px 8px black;
+    border-radius: 5px;
+}
+
+.top-text {
+    background: -webkit-linear-gradient(rgb(37, 173, 51), rgb(82, 209, 80));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+/*          video             */
+
+.video {
+    box-shadow: 2px 2px 8px black;
+}
+
+/*          BF           */
+
+#BF {
+    background-color: rgb(79, 79, 79);
+}
+
+.a-li {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+li {
+    list-style: none;
+}
+
+.BT {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+/*          Fotoer           */
+
+footer {
+    background-color: rgb(82, 209, 80);
+    padding: 20px;
+}
+
+/*          AD           */
+
+.m {
+    text-decoration: none;
+    color: black;
+}
+
+.img-AD {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin: auto;
+    display: block;
+    box-shadow: 2px 2px 8px black;
+}
+
+/*          Hover            */
+
+img:hover {
+    transform: scale(1.15,1.15);
+}
+
+img {
+    transition: transform 0.5s;
+}
+
+.top-menu:hover {
+    box-shadow: 0px 0px 50px rgb(60, 109, 60);
+}
+
+.navbar-brand:hover {
+    color: rgb(82, 209, 80);
+}
+
+.card:hover {
+    box-shadow: 0px 5px 10px gray;
+}
+
+.card {
+    transition: box-shadow 0.5s;
+}
